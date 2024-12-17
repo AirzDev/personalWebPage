@@ -21,10 +21,9 @@ body {
 .body {
     background-color: #a7bfcd;
     border: 3px solid ;
-    /*
-    */
+
     box-shadow: 5px 5px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 80px;
     margin-top: 60px;
     word-wrap: break-word;
@@ -242,4 +241,9 @@ input[type=text]:active, select:active, textarea:active {
     transform: translate(-4px,-4px);
     color: #000000;
     border:3px solid black;
+}
+
+.form-status {
+  display: flex;
+  justify-content: center;
 }
